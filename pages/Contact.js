@@ -34,7 +34,7 @@ const Contact = () => {
     <div className="pt-5 flex justify-center mx-20  border-4 border-indigo-100 ... ">
     
     <StyledContactForm className="pt-3">
-      <form ref={form} onSubmit={sendEmail}>
+      <form className="bg-gradient-to-r from-blue-300 to-white" ref={form} onSubmit={sendEmail}>
         <label className=" text-xl">Name</label>
         <input type="text" name="user_name" />
         <label className=" text-xl">Email</label>
