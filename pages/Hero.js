@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import ReactTyped from 'react-typed';
+import { motion } from 'framer-motion';
 import logo from '../Images/logo.png'
 import github from '../Images/github.png'
 
@@ -8,22 +9,35 @@ const Hero = () => {
   return (<>
      <section className=' min-h-screen sm:pt-28 flex py-10 md:flex-row flex-col items-center bg-gradient-to-r from-blue-300 to-white'>
 
+
+ 
+  
+
     
       <Image
         src={github}
         class=" animation-ping z-20 w-11 absolute left-24 top-56" alt=""
       />
+     
 {/* Image section */}
 
 <div className=' mx-7 sm:pt-15 flex-1 pt-5'>
-
+<motion.div className='image'
+initial={{ x: '-20vw'}}
+animate={{ x: -10}}
+transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
 <Image className='md:w-[110vh] w-100' src={logo} alt="" />
+</motion.div>
 </div>
 
 {/* Text section */}
 
 <div className='flex-1'>
 <div>
+<motion.div className='title'
+initial={{ y: -250}}
+animate={{ y: -10}}
+transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 1000 }}>
 <h1 className='mx-32 sm:pt-10 md:text-5xl text-5xl md:leading-normal leading-30 font-bold '>
 <span className='md:text-6xl text-5xl'>
 <span className=''>Hey</span>
@@ -45,9 +59,13 @@ const Hero = () => {
    l________________
 </p>
 <br />
+
 <button className='mx-32 pt-18 font-semibold text-white  bg-gray-900 rounded-bl-xl py-3 px-6 flex items-center gap-2'>Contact Me</button>
+</motion.div>
 </div>
+
 </div>
+
 </section>
     </>
   );

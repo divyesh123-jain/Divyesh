@@ -30,7 +30,7 @@ const Contact = () => {
 
   return (<>
   <div className="bg-gradient-to-r from-blue-300 to-white">
-    <h1 className="pt-16 flex justify-center pt-4 text-3xl">Contact ME </h1>
+    <h1 className="pt-16 flex justify-center  text-3xl">Contact ME </h1>
     <div className="pt-5 flex justify-center mx-20  border-4 border-indigo-100 ... ">
     
     <StyledContactForm className="pt-3">
