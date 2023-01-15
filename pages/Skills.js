@@ -14,31 +14,31 @@ const Skills = () => {
   
 
 
-  <div className='md:mx-48 align items-center pt-16 grid  grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-8 '>
- <div className='flex bg-gradient-to-r from-pink-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[190px] w-[190px] bg-blue-100'>
+  <div className='align items-center pt-16 grid  grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-8 '>
+ <div className='md:mx-36  flex bg-gradient-to-r from-blue-300 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl h-[190px] w-[190px] bg-blue-100'>
 <Image src={html} alt="" />
 
   </div>
 
 
-  <div className='flex bg-gradient-to-r from-pink-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[190px] w-[190px] bg-blue-100'>
+  <div className='md:mx-36 flex bg-gradient-to-r from-blue-300 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl  h-[190px] w-[190px] bg-blue-100'>
 <Image src={css} alt="" />
   </div>
 
 
-  <div className='flex bg-gradient-to-r from-pink-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[190px] w-[190px] bg-blue-100'>
+  <div className='md:mx-36  flex bg-gradient-to-r from-blue-300 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[190px] w-[190px] bg-blue-100'>
   <Image src={js} alt="" />
   </div>
 
-  <div className='flex bg-gradient-to-r from-pink-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[190px] w-[190px] bg-blue-100'>
+  <div className='md:mx-36  flex bg-gradient-to-r from-blue-300 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[190px] w-[190px] bg-blue-100'>
 <Image className='w-[20vh]' src={tailwind} alt="" />
   </div>
 
-  <div className='flex bg-gradient-to-r from-pink-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[190px] w-[190px] bg-blue-100'>
+  <div className='md:mx-36 flex bg-gradient-to-r from-blue-300 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[190px] w-[190px] bg-blue-100'>
 <Image className='w-[20vh]' src={react} alt="" />
   </div>
 
-  <div className='flex bg-gradient-to-r from-pink-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[190px] w-[190px] bg-blue-100'>
+  <div className='md:mx-36 flex bg-gradient-to-r from-blue-300 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[190px] w-[190px] bg-blue-100'>
   <Image className='w-[20vh]' src={next} alt="" />
   </div>
 

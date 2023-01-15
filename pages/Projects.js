@@ -8,8 +8,10 @@ import e from '../Images/sell.png'
 import buy from '../Images/buy.png'
 import hive from '../Images/work-space.png'
 
-
 const Projects = () => {
+
+
+    
     
 const [isOpen , setIsOpen] = useState(false);
 const [dev , setIsdev] = useState(false);
@@ -18,9 +20,13 @@ const [di , setIsdi] = useState(false)
 const [dk , setIsdk] = useState(false)
 
   return (
-    <div className=' min-h-screen bg-gradient-to-r from-blue-300 to-white'>
-      <motion.div    className='md:mx-8  pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-28'>
-        <motion.div className='  sm:mx-4 bg-gradient-to-r from-pink-100 to-white flex flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
+    <div className=' min-h-screen  bg-gradient-to-r from-blue-300 to-white'>
+      <motion.div    className=' md:mx-8  pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-28'>
+      <motion.div className='image'
+initial={{ x: '-20vw'}}
+animate={{ x: -10}}
+transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
+        <motion.div className='grid2-item mx-auto bg-gradient-to-r from-blue-300 to-white flex flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md shadow-black'>HCARE</p>
             <Image className='w-[30vh] pt-2 mx-20' src={doctor} alt="" />
@@ -43,8 +49,9 @@ const [dk , setIsdk] = useState(false)
             </motion.div>
             )}
         </motion.div>
+        </motion.div>
 
-        <motion.div  className='bg-gradient-to-r from-pink-100 to-white flex flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
+        <motion.div  className=' grid2-item mx-auto bg-gradient-to-r from-blue-300 to-white flex flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md shadow-black'>Inʌent</p>
             <Image className='w-[45vh] pt-2 md:mx-12' src={deal} alt="" />
@@ -70,7 +77,7 @@ const [dk , setIsdk] = useState(false)
 
 
 
-        <motion.div  className='flex bg-gradient-to-r from-pink-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
+        <motion.div  className='flex bg-gradient-to-r from-blue-200 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md shadow-black'>CollegeGet</p>
             <Image className='w-[45vh] pt-2 md:mx-6' src={e} alt="" />
@@ -95,7 +102,7 @@ const [dk , setIsdk] = useState(false)
         </motion.div>
         
         
-        <motion.div  className='flex bg-gradient-to-r from-pink-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
+        <motion.div  className='flex bg-gradient-to-r from-blue-300 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md shadow-black'>Ecomerce</p>
             <Image className='w-[30vh] pt-2 md:mx-12' src={buy} alt="" />
@@ -121,7 +128,7 @@ const [dk , setIsdk] = useState(false)
 
 
 
-        <motion.div  className='flex bg-gradient-to-r from-pink-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
+        <motion.div  className='flex bg-gradient-to-r from-blue-300 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md shadow-black'>Hive</p>
             <Image className='w-[45vh] pt-2 md:mx-12' src={hive} alt="" />
