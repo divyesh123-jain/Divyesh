@@ -30,7 +30,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md shadow-black'>HCARE</p>
             <Image className='w-[30vh] pt-2 mx-20' src={doctor} alt="" />
-            <p className='drop-shadow-lg shadow-black font-semibold text-2xl pt-2'>its is a healthcare dashboard that caters to your healthcare needs</p>
+            <p className='drop-shadow-lg shadow-black font-semibold md:text-2xl text-xl pt-2'>its is a healthcare dashboard that caters to your healthcare needs</p>
 
             </motion.h2>
             
@@ -55,7 +55,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md shadow-black'>Inʌent</p>
             <Image className='w-[45vh] pt-2 md:mx-12' src={deal} alt="" />
-            <p className='drop-shadow-lg shadow-black font-semibold text-2xl pt-2'> A website which helps investors and entrepenure to find each other</p>
+            <p className='drop-shadow-lg shadow-black font-semibold md:text-2xl text-xl pt-2'> A website which helps investors and entrepenure to find each other</p>
 
             </motion.h2>
             
@@ -81,7 +81,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md shadow-black'>CollegeGet</p>
             <Image className='w-[45vh] pt-2 md:mx-6' src={e} alt="" />
-            <p className='drop-shadow-lg shadow-black font-semibold text-2xl pt-2'>  A website which helps college students to buy and sell the verious accessories</p>
+            <p className='drop-shadow-lg shadow-black font-semibold md:text-2xl text-xl pt-2'>  A website which helps college students to buy and sell the verious accessories</p>
 
             </motion.h2>
             
@@ -106,7 +106,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md shadow-black'>Ecomerce</p>
             <Image className='w-[30vh] pt-2 md:mx-12' src={buy} alt="" />
-            <p className='drop-shadow-lg shadow-black font-semibold text-2xl pt-2'> is is a ecomerce website</p>
+            <p className='drop-shadow-lg shadow-black font-semibold md:text-2xl text-xl pt-2'> is is a ecomerce website</p>
 
             </motion.h2>
             
@@ -132,7 +132,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md shadow-black'>Hive</p>
             <Image className='w-[45vh] pt-2 md:mx-12' src={hive} alt="" />
-            <p className='drop-shadow-lg shadow-black font-semibold text-2xl pt-2'> Revolutionize Your Workflow with Our Advanced 3D Workspace</p>
+            <p className='drop-shadow-lg shadow-black font-semibold md:text-2xl text-xl pt-2'> Revolutionize Your Workflow with Our Advanced 3D Workspace</p>
 
             </motion.h2>
             
