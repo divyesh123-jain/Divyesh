@@ -21,7 +21,7 @@ const [dk , setIsdk] = useState(false)
 
   return (
     <div className=' min-h-screen  bg-gradient-to-r from-blue-300 to-white'>
-      <motion.div    className=' md:mx-8 sm:mx-6 mx-8  pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-28'>
+      <motion.div    className=' md:mx-8 sm:mx-6 mx-6  pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-28'>
       <motion.div className='image'
 initial={{ x: '-20vw'}}
 animate={{ x: -10}}
