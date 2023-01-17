@@ -9,7 +9,7 @@ import next from '../Images/next-js.webp'
 const Skills = () => {
   return (<>
   <div className='min-h-screen bg-gradient-to-r from-blue-300 to-white '>
-  <div className='text-3xl align text-center '>SKILLS</div>
+  <div className='text-3xl align text-center font-serif text-bold '>SKILLS</div>
 
   
 

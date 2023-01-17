@@ -25,7 +25,7 @@ const AboutMe = ({ num }) => {
 
   return (      <>
     <div className='bg-gradient-to-r from-blue-300 to-white'>
-    <p className='text-3xl align text-center'>ABOUT ME</p>
+    <p className='text-3xl text-bold align text-center font-serif'>ABOUT ME</p>
     <section className='min-h-screen flex py-10 md:flex-row flex-col items-center'>
 
   
@@ -34,12 +34,12 @@ const AboutMe = ({ num }) => {
 <div>
 <h1 className=' md:text-2xl text-2xl md:leading-normal leading-10 font-bold '>
 
-<div className='align  pb-20 mx-5 font-semi-bold text-justify  '>
+<div className='align  pb-20 mx-5  text-justify font-serif  '>
 
 
-       <p>Hi there, I am <span className='text-[#D7FF33] font-bold'>Divyesh Jain</span>, A student passionate about programming and design.
-        Currently I am Btech Student,I love to explore new technologies and i am trying to bring my skils to a perfection.
-        Though I am most proficient in building <span className='text-[#D7FF33] font-bold'>front-end applications</span>  using <span className='text-[#D7FF33] font-bold'>HTML, CSS, Javascript, React And Next.js</span> I am a quick learner and can pick up new tech stacks as needed.I believe that being a great developer is not using one
+       <p> A student passionate about programming and design.
+        Currently I am pursuing Btech,I love to explore new technologies and i am trying to bring my skils to a perfection.
+        Though I am most proficient in building <span className='text-black font-bold'>front-end applications</span>  using <span className='text-[purple] font-bold'>HTML, CSS, Javascript, React And Next.js</span> I am a quick learner and can pick up new tech stacks as needed.I believe that being a great developer is not using one
          specific language, but choosing the best tool for the job.</p>
          
          </div>

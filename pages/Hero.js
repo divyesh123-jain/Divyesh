@@ -71,17 +71,17 @@ animate={{ y: -10}}
 transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 1000 }}>
 <h1 className='mx-32 sm:pt-10 md:text-5xl text-5xl md:leading-normal leading-30 font-bold '>
 <span className='md:text-6xl text-5xl'>
-<span className=''>Hey</span>
+<span className='font-serif'>Hey</span>
  <br />
- <span className=' '>THIS IS</span>
+ <span className='font-serif '>THIS IS</span>
 
 
- <br /><span className='border-b-8 border-blue-900'>DIVYESH JAIN</span>
+ <br /><span className='border-b-8 border-blue-900 font-serif'>DIVYESH JAIN</span>
 </span>
 </h1>
 <p className='mx-32 text-xl pt-3'>
 <ReactTyped
-            className='md:text-xl sm:text-xl text-xl font-bold md:pl-4 pl-2 '
+            className='md:text-xl sm:text-xl font-serif text-xl font-bold md:pl-4 pl-2 '
             strings={['FRONTEND DEVELOPER' , 'FREELANCER' ]}
             typeSpeed={140}
             backSpeed={140}
