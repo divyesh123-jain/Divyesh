@@ -11,7 +11,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const boxVariant = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.2 } },
     hidden: { opacity: 0, scale: 0 }
   };
 
@@ -103,7 +103,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
 
 
         <motion.div  className='flex bg-gradient-to-r from-blue-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
-            <motion.h2 className='text-5xl  text-center pt-7'  >
+            <motion.h2 className='text-3xl  text-center pt-7'  >
             <p className='drop-shadow-md font-serif shadow-black'>CollegeGet</p>
             <Image className='w-[25vh] pt-2 md:mx-24' src={e} alt="" />
             <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-xl pt-2'>  A website which helps college students to buy and sell the verious accessories</p>
@@ -128,7 +128,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
         
         
         <motion.div  className=' flex bg-gradient-to-r from-blue-200 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
-            <motion.h2 className='text-5xl  text-center pt-7'  >
+            <motion.h2 className='text-3xl  text-center pt-7'  >
             <p className='drop-shadow-md font-serif shadow-black'>Ecomerce</p>
             <Image className='w-[25vh] pt-1 md:mx-12' src={buy} alt="" />
             <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-xl pt-8'> It is a ecomerce website</p>
@@ -141,7 +141,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
            
             <motion.div>
                 <p className='text-xl'>
-                <div className='flex '>
+                <div className='flex pt- '>
                 <button className='mx-8 pt-18 font-semibold text-white  bg-gray-900 rounded-bl-xl py-3 px-6 flex items-center gap-2'>Github</button>
                 <button className='mx-8 pt-18 font-semibold text-white  bg-gray-900 rounded-bl-xl py-3 px-6 flex items-center gap-2'>Visit</button>
                 </div>
@@ -154,7 +154,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
 
 
         <motion.div  className=' flex bg-gradient-to-r from-blue-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
-            <motion.h2 className='text-5xl  text-center pt-14'  >
+            <motion.h2 className='text-3xl  text-center pt-14'  >
             <p className='drop-shadow-md pb-8 font-serif shadow-black'>Hive</p>
             <Image className='w-[25vh] pb-9 mx-24' src={hive} alt="" />
             <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-xl '> Revolutionize Your Workflow with Our Advanced 3D Workspace</p>
@@ -167,7 +167,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
            
             <motion.div>
                 <p className='text-xl'>
-                <div className='flex '>
+                <div className='flex pt-2 '>
                 <button className='mx-8 pt-18 font-semibold text-white  bg-gray-900 rounded-bl-xl py-3 px-6 flex items-center gap-2'>Github</button>
                 <button className='mx-8 pt-18 font-semibold text-white  bg-gray-900 rounded-bl-xl py-3 px-6 flex items-center gap-2'>Visit</button>
                 </div>
