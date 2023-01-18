@@ -103,7 +103,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
         </motion.div>
         
         
-        <motion.div  className=' flex bg-gradient-to-r from-blue-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
+        <motion.div  className=' flex bg-gradient-to-r from-blue-200 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
             <motion.h2 className='text-5xl  text-center pt-7'  >
             <p className='drop-shadow-md font-serif shadow-black'>Ecomerce</p>
             <Image className='w-[25vh] pt-1 md:mx-12' src={buy} alt="" />

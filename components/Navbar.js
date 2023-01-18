@@ -1,19 +1,25 @@
 import React from 'react';
 import { Link } from 'react-scroll'
-
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 
 const Navbar = () => {
-  
+
+ 
+
+ 
   return (
     
     <div>
-      <nav className='fixed w-full  top-0 z-[999]'>
+      <nav className='md:fixed md:w-full md:top-0 z-[999]'>
       <div className='flex items-center justify-end'>
       <div className='text-white md:block  px-7 py-2 font-medium bg-gray-900 rounded-bl-full '>
   <ul className='flex items-center gap-8  text-lg'>
     <li>
       <Link 
+      className='hidden md:block'
         activeClass="active"
         to="section1"
         spy={true}
@@ -26,6 +32,7 @@ const Navbar = () => {
     </li>
     <li>
       <Link 
+       className='hidden md:block'
         activeClass="active"
         to="section2"
         spy={true}
@@ -38,6 +45,7 @@ const Navbar = () => {
     </li>
     <li>
       <Link 
+       className='hidden md:block'
         activeClass="active"
         to="section3"
         spy={true}
@@ -52,6 +60,7 @@ const Navbar = () => {
     </li>
 <li>
     <Link 
+     className='hidden md:block'
         activeClass="active"
         to="section4"
         spy={true}
@@ -65,6 +74,7 @@ const Navbar = () => {
 
       <li>
     <Link 
+     className='hidden md:block'
         activeClass="active"
         to="section5"
         spy={true}
@@ -82,8 +92,10 @@ const Navbar = () => {
 </nav>
 
 
+       
+      </div>
 
-    </div>
+
   );
 }
 
