@@ -69,9 +69,9 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
 initial={{ y: -250}}
 animate={{ y: -10}}
 transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 1000 }}>
-<h1 className='mx-32 sm:pt-10 md:text-5xl text-5xl md:leading-normal leading-30 font-bold '>
+<h1 className='md:mx-32 mx-16 sm:pt-10 md:text-5xl text-5xl md:leading-normal leading-30 font-bold '>
 <span className='md:text-6xl text-5xl'>
-<span className='font-serif'>Hey</span>
+<span className='font-serif '>Hey</span>
  <br />
  <span className='font-serif '>THIS IS</span>
 
