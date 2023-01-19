@@ -79,7 +79,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 1000 }}>
  <br /><span className='border-b-8 border-blue-900 font-serif'>DIVYESH JAIN</span>
 </span>
 </h1>
-<p className='mx-32 text-xl pt-3'>
+<p className='md:mx-32 mx-16  text-xl pt-3'>
 <ReactTyped
             className='md:text-xl sm:text-xl font-serif text-xl font-bold md:pl-4 pl-2 '
             strings={['FRONTEND DEVELOPER' , 'FREELANCER' ]}
