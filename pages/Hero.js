@@ -1,12 +1,9 @@
-import {React , useEffect } from 'react';
-import Image from 'next/image';
+import {React ,useEffect } from "react";
+import hero from '../Images/logo.png'
+import Image from "next/image";
 import ReactTyped from 'react-typed';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-
-import logo from '../Images/logo.png'
-import github from '../Images/github.png'
-
 
 
 
@@ -15,57 +12,46 @@ const Variant = {
   hidden: { opacity: 0, scale: 0 }
 };
 
-
-
 const Hero = () => {
-
-
-
   const control = useAnimation();
-    const [ref, inView] = useInView();
+  const [ref, inView] = useInView();
 
-    useEffect(() => {
-        if (inView) {
-          control.start("visible");
-        } else {
-          control.start("hidden");
-        }
-      }, [control, inView]);
-
-
-
-  return (<>
-     <section className=' min-h-screen sm:pt-28 flex py-10 md:flex-row flex-col items-center bg-gradient-to-r from-blue-300 to-white'>
+  useEffect(() => {
+      if (inView) {
+        control.start("visible");
+      } else {
+        control.start("hidden");
+      }
+    }, [control, inView]);
 
 
- 
-  
 
-    
-      <Image
-        src={github}
-        class=" animation-ping z-20 w-11 absolute left-24 top-56" alt=""
-      />
-     
-{/* Image section */}
-
-<div className=' mx-7 sm:pt-15 flex-1 pt-5'>
-<motion.div 
+  const social_media = [
+    "logo-instagram",
+    "logo-facebook",
+    "logo-linkedin",
+    "logo-twitter",
+  ];
+  return (
+    <section
+      id="home"
+      className="min-h-screen  bg-gradient-to-r from-blue-300 to-white flex py-10 md:flex-row flex-col items-center"
+    >
+      <div className="flex-1 flex items-center justify-center h-full">
+      <motion.div 
  className="box"
       ref={ref}
       variants={Variant}
 initial="hidden" 
 animate={control}
 transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
-<Image className='md:w-[110vh] w-100' src={logo} alt="" />
-</motion.div>
-</div>
-
-{/* Text section */}
-
-<div className='flex-1'>
-<div>
-<motion.div className='title'
+      <Image src={hero} alt="" className="md:w-11/12 h-full object-cover" />
+      </motion.div>
+      </div>
+      <div className="flex-1">
+        <div className="md:text-left text-center">
+          <h1 className="md:text-3xl text-2xl md:leading-normal leading-10  font-bold">
+          <motion.div className='title'
 initial={{ y: -250}}
 animate={{ y: -10}}
 transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 1000 }}>
@@ -91,15 +77,23 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 1000 }}>
 </p>
 <br />
 
-<button className='mx-32 pt-18 font-semibold text-white  bg-gray-900 rounded-bl-xl py-3 px-6 flex items-center gap-2'>Contact Me</button>
+<button className='mx-32 pt-18 font-semibold text-white text-xl  bg-gray-900 rounded-bl-xl py-3 px-6 flex items-center gap-2'>Contact Me</button>
 </motion.div>
+</h1>
 </div>
-
-</div>
-
-</section>
-    </>
+          <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
+            {social_media?.map((icon) => (
+              <div
+                key={icon}
+                className="text-gray-600 hover:text-white cursor-pointer "
+              >
+                <ion-icon name={icon}></ion-icon>
+              </div>
+            ))}
+          </div>
+        </div></section>
+    
   );
-}
+};
 
 export default Hero;
