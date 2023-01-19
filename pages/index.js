@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import AboutMe from './AboutMe'
 import Contact from './Contact'
 import Hero from './Hero'
+import Links from './Links'
 import Projects from './Projects'
 import Skills from './Skills'
 
@@ -18,7 +19,9 @@ export default function Home() {
       </Head>
 
       <section id="section1">
+   
   <Hero />
+  <Links />
 </section>
 <section id="section2">
  <AboutMe />
