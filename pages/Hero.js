@@ -87,7 +87,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 1000 }}>
             backSpeed={140}
             loop
              /> <br />
-   l________________
+  
 </p>
 <br />
 
