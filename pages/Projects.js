@@ -55,7 +55,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
             <motion.h2 className='text-3xl  text-center pt-4'  >
             <p className='drop-shadow-md font-serif shadow-black'>HCARE</p>
             <Image className='w-[25vh] pt-2 mx-20' src={doctor} alt="" />
-            <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-xl pt-2'>its is a healthcare dashboard that caters to your healthcare needs</p>
+            <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-sm pt-2'>its is a healthcare dashboard that caters to your healthcare needs</p>
 
             </motion.h2>
             
@@ -79,8 +79,8 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
         <motion.div  className='sm:mx-6 grid2-item mx-auto bg-gradient-to-r from-blue-100 to-white flex flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
             <motion.h2 className='text-3xl  text-center pt-7'  >
             <p className='drop-shadow-md pb-8 font-serif shadow-black'>Inʌent</p>
-            <Image className='w-[30vh] pt-2 md:mx-28' src={deal} alt="" />
-            <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-xl pt-2'> A website which helps investors and entrepenure to find each other</p>
+            <Image className='w-[30vh] pt-2 md:mx-28 mx-20' src={deal} alt="" />
+            <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-sm pt-2'> A website which helps investors and entrepenure to find each other</p>
 
             </motion.h2>
             
@@ -105,8 +105,8 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
         <motion.div  className='flex bg-gradient-to-r from-blue-100 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
             <motion.h2 className='text-3xl  text-center pt-7'  >
             <p className='drop-shadow-md font-serif shadow-black'>CollegeGet</p>
-            <Image className='w-[25vh] pt-2 md:mx-24' src={e} alt="" />
-            <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-xl pt-2'>  A website which helps college students to buy and sell the verious accessories</p>
+            <Image className='w-[25vh] pt-2 md:mx-24 mx-16' src={e} alt="" />
+            <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-sm pt-2'>  A website which helps college students to buy and sell the verious accessories</p>
 
             </motion.h2>
             
@@ -130,8 +130,8 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
         <motion.div  className=' flex bg-gradient-to-r from-blue-200 to-white flex-col dark-shadows transitionall hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,0.9)] shadow-[5px_5px_0px_0px_rgba(0,0,0,0.1)] cursor-pointer rounded-xl justify-center items-center h-[360px] w-[390px] bg-blue-100'>
             <motion.h2 className='text-3xl  text-center pt-7'  >
             <p className='drop-shadow-md font-serif shadow-black'>Ecomerce</p>
-            <Image className='w-[25vh] pt-1 md:mx-12' src={buy} alt="" />
-            <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-xl pt-8'> It is a ecomerce website</p>
+            <Image className='w-[25vh] pt-1 md:mx-12 mx-24' src={buy} alt="" />
+            <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-sm md:pt-8'> It is a ecomerce website</p>
 
             </motion.h2>
             
@@ -157,7 +157,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
             <motion.h2 className='text-3xl  text-center pt-14'  >
             <p className='drop-shadow-md pb-8 font-serif shadow-black'>Hive</p>
             <Image className='w-[25vh] pb-9 mx-24' src={hive} alt="" />
-            <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-xl '> Revolutionize Your Workflow with Our Advanced 3D Workspace</p>
+            <p className='drop-shadow-lg shadow-black font-serif md:text-2xl text-sm '> Revolutionize Your Workflow with Our Advanced 3D Workspace</p>
 
             </motion.h2>
             
