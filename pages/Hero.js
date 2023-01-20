@@ -77,7 +77,13 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 1000 }}>
 </p>
 <br />
 
-<button className='mx-32 pt-18 font-semibold text-white text-xl  bg-gray-900 rounded-bl-xl py-3 px-6 flex items-center gap-2'>Contact Me</button>
+<button className='mx-32 pt-18 font-semibold text-white text-xl  bg-gray-900 rounded-bl-xl py-3 px-6 flex items-center gap-2'  
+        activeClass="active"
+        to="section5"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}>Contact Me</button>
 </motion.div>
 </h1>
 </div>
