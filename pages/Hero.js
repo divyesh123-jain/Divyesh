@@ -1,9 +1,11 @@
 import {React ,useEffect } from "react";
+import Link from "next/link";
 import hero from '../Images/logo.png'
 import Image from "next/image";
 import ReactTyped from 'react-typed';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Links from "./Links";
 
 
 
@@ -77,13 +79,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 1000 }}>
 </p>
 <br />
 
-<button className='mx-32 pt-18 font-semibold text-white text-xl  bg-gray-900 rounded-bl-xl py-3 px-6 flex items-center gap-2'  
-        activeClass="active"
-        to="section5"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}>Contact Me</button>
+<p className="mx-32 pt-18 font-serif text-2xl  rounded-bl-xl py-3 px-1 flex items-center gap-2">Student By Day::Developer By Night</p>
 </motion.div>
 </h1>
 </div>
