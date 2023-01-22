@@ -64,7 +64,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 1000 }}>
  <span className='font-serif '>THIS IS</span>
 
 
- <br /><span className='border-b-8 border-blue-900 font-serif'>DIVYESH JAIN</span>
+ <br /><span className='border-b-8 md:pt-1 border-blue-900 font-serif'>DIVYESH </span> <span className='border-b-8 md:pt-1 pt-2 border-blue-900 font-serif'>JAIN</span>
 </span>
 </h1>
 <p className='md:mx-32 mx-16  text-xl pt-3'>
