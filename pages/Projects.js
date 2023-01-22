@@ -17,16 +17,7 @@ const boxVariant = {
 
 const Projects = () => {
 
- const control = useAnimation();
-    const [ref, inView] = useInView();
-
-    useEffect(() => {
-        if (inView) {
-          control.start("visible");
-        } else {
-          control.start("hidden");
-        }
-      }, [control, inView]);
+ 
     
     
 const [isOpen , setIsOpen] = useState(false);
@@ -38,13 +29,7 @@ const [dk , setIsdk] = useState(false)
   return (
     <div className=' min-h-screen  bg-gradient-to-r from-blue-300 to-white'>
     <h1 className='text-3xl align text-center text-bold font-serif '>PROJECTS</h1>
-    <motion.div
-      className="box"
-      ref={ref}
-      variants={boxVariant}
-      initial="hidden"
-      animate={control}
-    >
+   
       <motion.div    className=' md:mx-8   pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-28'>
      
       <motion.div className='image'
@@ -177,7 +162,7 @@ transition={{ dealy: 0.2 , type: 'spring' ,stiffnes: 120 }}>
             )}
         </motion.div>
         </motion.div>
-      </motion.div>
+ 
       
   
            
